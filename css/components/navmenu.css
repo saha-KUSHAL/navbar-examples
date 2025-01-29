@@ -1,0 +1,33 @@
+.nav-menu{
+    display: flex;
+    gap: 1.875rem;
+}
+.nav-menu-items{
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+}
+.nav-menu-items:hover{
+    color: var(--color-black);
+}
+.dropdown-items{
+    position: absolute;
+    display: none;
+    background-color: var(--color-black);
+    padding-inline: 1.25rem;
+    padding-block: 0.625rem;
+    border-radius: 5px;
+}
+.dropdown-items a{
+    color: var(--color-white);
+    text-decoration: none;
+    /*margin-block: 10px;*/
+}
+.dropdown:hover .dropdown-items{
+    display: grid;
+    gap: 0.625rem;
+}
+.dropdown-items a:hover{
+    color: var(--color-bg);
+}

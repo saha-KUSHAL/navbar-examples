@@ -1,0 +1,14 @@
+nav .signin-btn{
+    background-color: var(--color-purple);
+    padding-inline: 1.25rem;
+    padding-block: 0.9375rem;
+    border-radius: 0.3125rem;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    font-weight: 500;
+}
+nav .signin-btn:hover{
+    background-color: var(--color-black);
+    color: var(--color-bg);
+}
